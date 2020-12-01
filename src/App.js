@@ -66,7 +66,7 @@ const App = () => {
         <Button
           variant="outline-info"
           className="float-right mr-2"
-          onClick={() => {setdisplayAll(prev => !prev);}}
+          onClick={() => {query(); setdisplayAll(prev => !prev);}}
         >
           {!displayAll ? "show All" : " Close"}
         </Button>
